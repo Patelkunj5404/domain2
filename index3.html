@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-page Website Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- <header>
+    <h1>Welcome to Our Website</h1>
+</header> -->
+
+<nav>
+    <a href="#landing">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#team">Our Team</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#booking">Book Appointment</a>
+</nav>
+
+<section id="landing">
+   <div class="landing">
+    <h2>Welcome to Our Website</h2>
+    <p>This is a demo landing page combining multiple sections.</p>
+   </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a dedicated team providing excellent services to our clients.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+    <div class="service">
+        <img src="back.avif" alt="">
+        <h3>Service 1</h3>
+        <p>Description of Service 1.</p>
+    </div>
+    <div class="service">
+        <img src="back.avif" alt="">
+        <h3>Service 2</h3>
+        <p>Description of Service 2.</p>
+    </div>
+    <div class="service">
+        <img src="back.avif" alt="">
+        <h3>Service 3</h3>
+        <p>Description of Service 3.</p>
+    </div>
+</div>
+</section>
+
+<section id="team" >
+    <h2>Our Team</h2>
+    <div class="team">
+
+    <div class="team-member" id="member1">
+        <img src="men1.jpg" alt="John Doe">
+        <div class="member-details">
+            <h3>John Doe</h3>
+            <p>CEO</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod diam mauris, at volutpat turpis dapibus at.</p>
+        </div>
+    </div>
+    <div class="team-member" id="member2">
+        <img src="men2.jpg" alt="Jane Smith">
+        <div class="member-details">
+            <h3>Jane Smith</h3>
+            <p>Designer</p>
+            <p>Phasellus aliquam fermentum ligula, sit amet eleifend felis sollicitudin at.</p>
+        </div>
+    </div>
+    <div class="team-member" id="member3">
+        <img src="men3.jpg" alt="Michael Johnson">
+        <div class="member-details">
+            <h3>Michael Johnson</h3>
+            <p>Developer</p>
+            <p>Vivamus auctor orci at purus dapibus, non scelerisque lectus interdum.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="gallery" >
+    <h2>Gallery</h2>
+    <div class="gallery">
+    <img src="web1.jpg" alt="Image">
+    <img src="web2.jpg" alt="Image">
+    <img src="web3.png" alt="Image">
+    <img src="web3.png" alt="Image">
+    <img src="web3.png" alt="Image">
+    <img src="web4.png" alt="Image">
+</div> 
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <label for="name">Name: <br>
+        <input type="text" id="contactName" name="name" required></label>
+
+        <label for="email">Email: <br>
+        <input type="email" id="contactEmail" name="email" required></label>
+
+        <label for="phone">Phone: <br>
+        <input type="tel" id="contactPhone" name="phone" required></label>
+
+        <label for="message">Message: <br>
+        <textarea id="contactMessage" name="message" required></textarea></label>
+
+        <input type="submit" value="Submit">
+    </form>
+    <div id="contactResponse"></div>
+</section>
+
+<section id="booking" class="booking">
+    <h2>Book an Appointment</h2>
+    <form id="bookingForm">
+        <label for="name">Name: <br>
+        <input type="text" id="name" name="name" required> </label>
+        <label for="email">Email: <br>
+        <input type="email" id="email" name="email" required> </label>
+        <label for="date">Date: <br>
+        <input type="date" id="date" name="date" required> </label>
+        <label for="time"> Time: <br>
+        <input type="time" id="time" name="time" required> </label>
+        <input type="submit" value="Book Appointment">
+    </form>
+    <div id="response"></div>
+</section>
+
+<!-- 
+<footer>
+    <p>&copy; 2024 Company Name. All rights reserved.</p>
+</footer> -->
+
+</body>
+</html>
